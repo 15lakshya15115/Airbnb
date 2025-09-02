@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  height: 4.5rem;
+  box-shadow: 1px 5px 50px;
+}
+.navlist {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4rem;
+  width: 50rem;
+}
+.logo {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  color: red;
+}
+.list {
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: black;
+}
+.list:hover {
+  color: gray;
+}
+.indexhead {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.indexcontent {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contimg {
+  transition: 0.3s ease;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+.contimg:hover {
+  filter: brightness(70%);
+}
+.conttext {
+  text-decoration: none;
+  color: black;
+}
+.conttext b {
+  font-size: 1.2rem;
+}
+footer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(178, 174, 174);
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+.foot {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.footname {
+  margin-top: 0.5rem;
+}
+.privacy {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: red;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 20rem;
+  border: none;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: rgb(137, 3, 3);
+}
+.newform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.newhead {
+  margin-top: 2rem;
+}
+label {
+  font-size: 1.3rem;
+}
+input {
+  width: 50rem;
+  height: 2rem;
+  border: 2px solid black;
+}
+textarea {
+  width: 50rem;
+  height: 4rem;
+  border: 2px solid black;
+}
+.addbtn {
+  display: flex;
+  justify-content: center;
+}
+.editform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.detailform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.btn-del {
+  background-color: black;
+  color: white;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 20rem;
+  border: none;
+  font-weight: 600;
+}
+.btn-del:hover {
+  background-color: grey;
+}
+.btn-edit {
+  background-color: red;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 20rem;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.btn-edit:hover {
+  background-color: rgb(137, 3, 3);
+}
+.edit {
+  display: flex;
+  justify-content: center;
+}
+.detailimg {
+  height: 18rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+}

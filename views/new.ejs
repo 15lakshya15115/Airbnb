@@ -1,0 +1,46 @@
+<% layout("/layout/boilerplate") %>
+
+<body>
+  <div class="newform">
+    <h1 class="newhead">Create new listing</h1>
+    <form action="/listing" method="post">
+      <label for="listing[title]">Title</label> <br />
+      <input name="listing[title]" placeholder="Enter title" type="text" />
+      <br /><br />
+      <label for="listing[description]">Description</label> <br />
+      <textarea
+        name="listing[description]"
+        placeholder="Enter description"
+        type="text"
+      ></textarea
+      ><br /><br />
+      <label for="listing[image]">Image</label> <br />
+      <input
+        name="listing[image]"
+        placeholder="Enter image URL"
+        type="text"
+      /><br /><br />
+      <label for="listing[price]">Price</label> <br />
+      <input
+        name="listing[price]"
+        placeholder="Enter price"
+        type="number"
+      /><br /><br />
+      <label for="listing[country]">Country</label> <br />
+      <input
+        name="listing[country]"
+        placeholder="Enter country"
+        type="text"
+      /><br /><br />
+      <label for="listing[location]">Location</label> <br />
+      <input
+        name="listing[location]"
+        placeholder="Enter location"
+        type="text"
+      /><br /><br />
+      <div class="addbtn">
+        <button class="btn">Add</button>
+      </div>
+    </form>
+  </div>
+</body>
